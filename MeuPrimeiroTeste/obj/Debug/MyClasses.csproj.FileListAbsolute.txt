@@ -1,0 +1,6 @@
+C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MeuPrimeiroTeste\bin\Debug\MeuPrimeiroTeste.dll
+C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MeuPrimeiroTeste\bin\Debug\MeuPrimeiroTeste.pdb
+C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MeuPrimeiroTeste\obj\Debug\MyClasses.csproj.AssemblyReference.cache
+C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MeuPrimeiroTeste\obj\Debug\MyClasses.csproj.CoreCompileInputs.cache
+C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MeuPrimeiroTeste\obj\Debug\MeuPrimeiroTeste.dll
+C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MeuPrimeiroTeste\obj\Debug\MeuPrimeiroTeste.pdb
