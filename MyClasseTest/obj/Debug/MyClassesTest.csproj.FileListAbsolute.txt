@@ -15,3 +15,4 @@ C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MyCla
 C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MyClasseTest\bin\Debug\MeuPrimeiroTeste.dll
 C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MyClasseTest\bin\Debug\MeuPrimeiroTeste.pdb
 C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MyClasseTest\bin\Debug\MyClasseTest.dll.config
+C:\Users\Dougl\OneDrive\Documentos\Estudo\TestesUnitarios\MeuPrimeiroTeste\MyClasseTest\bin\Debug\FileToDeploy.txt
