@@ -50,8 +50,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssertClassTest.cs" />
+    <Compile Include="CollectionAssertTest.cs" />
     <Compile Include="FileProcessTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringAssertClassTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
