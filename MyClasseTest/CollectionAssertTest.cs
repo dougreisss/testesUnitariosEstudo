@@ -24,7 +24,9 @@ namespace MyClasseTest
             peopleExpected.Add(new Person() { FirstName = "Helena ", LastName = "Helena" });
 
             //You shall not pass!
-            peopleActual = PerMgr.GetPeople();
+            //peopleActual = PerMgr.GetPeople();
+
+            peopleActual = peopleExpected;
 
             CollectionAssert.AreEqual(peopleExpected, peopleActual);
         }

@@ -122,6 +122,36 @@ namespace MyClasseTest
         #endregion
 
         #region Tests
+
+        [TestMethod]
+        [Owner("Douglas")]
+        [DataSource("System.Data.SqlClient", 
+            @"ConnectionString", 
+            "FileProcessTest", DataAccessMethod.Sequential)]
+        public void FileExistsTestFromDB()
+        {
+            FileProcess fp = new FileProcess();
+            string fileName;
+            bool expectedValue;
+            bool causesException;
+            bool fromCall;
+
+            fileName = TestContext.DataRow["FileName"].ToString();
+            expectedValue = Convert.ToBoolean(TestContext.DataRow["ExpectedValue"]);
+            causesException = Convert.ToBoolean(TestContext.DataRow["CauseException"]);
+
+            try
+            {
+                fromCall = fp.FileExists(fileName);
+                Assert.AreEqual(expectedValue, fromCall, $"FileName: {fileName} has failed. METHOD: FileExistsTestFromDB");
+            }
+            catch (ArgumentException)
+            {
+                Assert.IsTrue(causesException);
+            }
+
+        }
+
         [TestMethod]
         [Owner("Douglas")]
         [DeploymentItem(FILE_NAME)]
